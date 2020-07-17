@@ -23,14 +23,31 @@ const TextWrapper = styled.div`
     flex: 1;
     display: flex;
     align-items: center;
+    ${({hover}: TextWrapperPropsI) => hover ? ":hover{color: gray;}" : ""}
+    ${({left}: TextWrapperPropsI) => left ? "justify-content: flex-start;" : ""}
+    ${({right}: TextWrapperPropsI) => right ? "justify-content: flex-end;" : ""}
+    ${({right, left}: TextWrapperPropsI) => !left && !right ? "justify-content: center;" : ""}
 `;
 
-function Appeal({index, name, appealsNumber, districtFitness, header, onClick}: AppealProps) {
+interface TextWrapperPropsI {
+    left?: boolean,
+    right?: boolean,
+    hover?: boolean
+}
+
+function Appeal({index, name, appealsNumber, districtFitness, rating, header, onClick, setSortColumn}: AppealProps) {
     return <AppealWrapper header={header} onClick={onClick}>
-    <TextWrapper>{!header ? index : `№`}</TextWrapper>
-    <TextWrapper>{!header ? name : `Название объекта`}</TextWrapper>
-    <TextWrapper>{!header ? appealsNumber : `Число жалоб`}</TextWrapper>
-    <TextWrapper>{!header ? districtFitness + "%" : `Приспособленность района`}</TextWrapper>
+        <TextWrapper left>{!header ? index : `№`}</TextWrapper>
+        <TextWrapper>{!header ? name : `Название объекта`}</TextWrapper>
+        <TextWrapper hover={header} onClick={!header ? undefined : () => setSortColumn("appealsNumber")}>
+            {!header ? appealsNumber : `Число жалоб`}
+        </TextWrapper>
+        <TextWrapper hover={header} onClick={!header ? undefined : () => setSortColumn("districtFitness")}>
+            {!header ? districtFitness + "%" : `Приспособленность района`}
+        </TextWrapper>
+        <TextWrapper hover={header} onClick={!header ? undefined : () => setSortColumn("rating")} right>
+            {!header ? Math.floor(rating as number)  : `Рейтинг`}
+        </TextWrapper>
     </AppealWrapper>
 }
 
@@ -41,8 +58,10 @@ Appeal.propTypes = {
     name: PropTypes.string,
     appealsNumber: PropTypes.number,
     districtFitness: PropTypes.number,
+    rating: PropTypes.number,
     header: PropTypes.bool,
-    onClick: PropTypes.func
+    onClick: PropTypes.func,
+    setSortColumn: PropTypes.func,
 };
 
 interface AppealProps {
@@ -52,6 +71,8 @@ interface AppealProps {
     districtFitness?: number,
     header?: boolean,
     onClick?: any,
+    setSortColumn?: any,
     onAppealsClick?: any,
     onDistrictClick?: any,
+    rating?: number
 }

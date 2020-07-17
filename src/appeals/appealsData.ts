@@ -137,6 +137,15 @@ export const appeals: Array<AppealI> = [
 
     }];
 
+// export const appealDescriptions: any = {
+//     "blind": [
+//         `Нет визуальных источников информации`,
+//     ],
+//     ""
+// }
+
+
+
 
 export const categories: Array<string> = [
     "blind",
@@ -152,8 +161,17 @@ export const categoriesTranslation: any = {
     "wheelchair": "Колясочники"
 };
 
+
+
+export const featureMap: any = {
+    "appealsNumber": "количества жалоб",
+    "districtFitness": "приспособленности района",
+    "rating": "рейтинга"
+};
+
 export interface AppealI {
     name: string,
     appealsNumber: number,
-    districtFitness: number
+    districtFitness: number,
+    rating?: number
 }

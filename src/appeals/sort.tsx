@@ -1,9 +1,8 @@
-import {AppealI} from "./appealsData";
 
-export function rate(appealA: AppealI, appealB: AppealI, column?: string) {
-    if(column === "appealsNumber" || column === "districtFitness") {
+export function rate(appealA: any, appealB: any, column: string = "rating", increaseOrder: boolean = false) {
+    if(!increaseOrder) {
         return appealA[column] - appealB[column]
     } else {
-        return 0.7 * appealB.appealsNumber + 0.5 * appealB.districtFitness - (0.7 * appealA.appealsNumber + 0.5 * appealA.districtFitness);
+        return appealB[column] - appealA[column]
     }
 }

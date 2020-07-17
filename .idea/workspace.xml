@@ -2,10 +2,35 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="71d3f839-969f-455a-8e91-0fcc63494df8" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/appeals/appeal.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/appeals/appeal.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/appeals/appealsData.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/appeals/appealsData.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/appeals/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/appeals/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/appeals/sort.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/appeals/sort.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/router" beforeDir="false" afterPath="$PROJECT_DIR$/src/router" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/router/header/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/router/header/index.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/router/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/router/index.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/router/sidebar/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/router/sidebar/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/main.991011b2.chunk.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/main.991011b2.chunk.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/3.3afe42e6.chunk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/3.3afe42e6.chunk.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/4.033983a1.chunk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/4.033983a1.chunk.js.LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/4.033983a1.chunk.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/5.cc261ca2.chunk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/5.cc261ca2.chunk.js.LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/5.cc261ca2.chunk.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/6.6c3cf6ee.chunk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/6.6c3cf6ee.chunk.js.LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/6.6c3cf6ee.chunk.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/main.302cbe25.chunk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/main.302cbe25.chunk.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/runtime-main.bccdc375.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/runtime-main.bccdc375.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/xlsx.770d11b9.chunk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/xlsx.770d11b9.chunk.js.map" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,6 +68,9 @@
     <property name="ts.external.directory.path" value="$PROJECT_DIR$/node_modules/typescript/lib" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/appealStats" />
       <recent name="$PROJECT_DIR$/src/state" />
@@ -73,7 +101,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1594884019126</updated>
-      <workItem from="1594884020478" duration="34172000" />
+      <workItem from="1594884020478" duration="43375000" />
     </task>
     <servers />
   </component>
@@ -105,9 +133,9 @@
       <screen x="72" y="34" width="1848" height="1046" />
     </state>
     <state x="576" y="250" key="run.anything.popup/72.34.1848.1046@72.34.1848.1046" timestamp="1594920890088" />
-    <state x="575" y="45" width="840" height="1034" key="search.everywhere.popup" timestamp="1594920785955">
+    <state x="575" y="45" width="840" height="1034" key="search.everywhere.popup" timestamp="1594979675549">
       <screen x="72" y="34" width="1848" height="1046" />
     </state>
-    <state x="575" y="45" width="840" height="1034" key="search.everywhere.popup/72.34.1848.1046@72.34.1848.1046" timestamp="1594920785955" />
+    <state x="575" y="45" width="840" height="1034" key="search.everywhere.popup/72.34.1848.1046@72.34.1848.1046" timestamp="1594979675549" />
   </component>
 </project>
