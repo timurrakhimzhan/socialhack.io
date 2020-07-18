@@ -16,14 +16,15 @@ const AppealWrapper = styled.div `
     ${({header}: AppealProps) => header ? `font-weight: bold;` : ''};
     ${({header}: AppealProps) => !header ? `:hover {
         background-color: white;
+        cursor: pointer;
     }` : ''};
 `;
 
 const TextWrapper = styled.div`
-    flex: 1;
+    flex: ${({flex}: TextWrapperPropsI) => flex ? flex : "1"};
     display: flex;
     align-items: center;
-    ${({hover}: TextWrapperPropsI) => hover ? ":hover{color: gray;}" : ""}
+    ${({hover}: TextWrapperPropsI) => hover ? ":hover{color: gray; cursor: pointer;}" : ""}
     ${({left}: TextWrapperPropsI) => left ? "justify-content: flex-start;" : ""}
     ${({right}: TextWrapperPropsI) => right ? "justify-content: flex-end;" : ""}
     ${({right, left}: TextWrapperPropsI) => !left && !right ? "justify-content: center;" : ""}
@@ -32,20 +33,27 @@ const TextWrapper = styled.div`
 interface TextWrapperPropsI {
     left?: boolean,
     right?: boolean,
-    hover?: boolean
+    hover?: boolean,
+    flex?: number,
 }
 
 function Appeal({index, name, appealsNumber, districtFitness, rating, header, onClick, setSortColumn}: AppealProps) {
     return <AppealWrapper header={header} onClick={onClick}>
         <TextWrapper left>{!header ? index : `№`}</TextWrapper>
-        <TextWrapper>{!header ? name : `Название объекта`}</TextWrapper>
-        <TextWrapper hover={header} onClick={!header ? undefined : () => setSortColumn("appealsNumber")}>
+        <TextWrapper flex={3}>{!header ? name : `Название объекта`}</TextWrapper>
+        <TextWrapper hover={header}
+                     flex={3}
+                     onClick={!header ? undefined : () => setSortColumn("appealsNumber")}>
             {!header ? appealsNumber : `Число жалоб`}
         </TextWrapper>
-        <TextWrapper hover={header} onClick={!header ? undefined : () => setSortColumn("districtFitness")}>
+        <TextWrapper hover={header}
+                     flex={3}
+                     onClick={!header ? undefined : () => setSortColumn("districtFitness")}>
             {!header ? districtFitness + "%" : `Приспособленность района`}
         </TextWrapper>
-        <TextWrapper hover={header} onClick={!header ? undefined : () => setSortColumn("rating")} right>
+        <TextWrapper hover={header}
+                     flex={3}
+                     onClick={!header ? undefined : () => setSortColumn("rating")}>
             {!header ? Math.floor(rating as number)  : `Рейтинг`}
         </TextWrapper>
     </AppealWrapper>

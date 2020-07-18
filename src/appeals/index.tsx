@@ -30,7 +30,7 @@ const Row = styled.div`
 function Appeals() {
     const history = useHistory();
     const dispatch = useDispatch();
-    const [increaseOrder, setIncreaseOrder] = useState(false);
+    const [increaseOrder, setIncreaseOrder] = useState(true);
     const [sortColumn, setSortColumn] = useState("rating");
 
     return<AppealsWrapper>

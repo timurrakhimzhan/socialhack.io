@@ -5,6 +5,8 @@ import {StateI} from "../state/reducers";
 import * as am4core from "@amcharts/amcharts4/core";
 import * as am4charts from "@amcharts/amcharts4/charts";
 import {VerticalSpace} from "../templates";
+import {AppealStats} from "./randomAppeals";
+import {categoriesColors} from "../appeals/appealsData";
 
 const ChartWrapper = styled.div`
     height: 70%;
@@ -13,19 +15,20 @@ const ChartWrapper = styled.div`
 `;
 
 function AllStats() {
-    let data = useSelector((state: StateI) => state.appeals.statsData);
+    let data: Array<AppealStats> = useSelector((state: StateI) => state.appeals.statsData);
     const category = useSelector((state: StateI) => state.appeals.category);
     useLayoutEffect(() => {
         if(!data) {
             return;
         }
         let x = am4core.create("allchartdiv", am4charts.XYChart);
+        let dataGraph: Array<AppealStats> = data.map((elem) => elem);
         if(category !== "all") {
-            data = data.filter((elem) => elem.category === category);
+            dataGraph = data.filter((elem) => elem.category === category);
         }
 
         const dataObject: {[key: string]: number} = {};
-        for(let elem of data) {
+        for(let elem of dataGraph) {
             if (!dataObject[elem.date]) {
                 dataObject[elem.date] = 1;
             } else {
@@ -46,6 +49,7 @@ function AllStats() {
         series.dataFields.dateX = "date";
         series.dataFields.valueY = "value";
         series.tooltipText = "{valueY.value}";
+        series.columns.template.fill = am4core.color(categoriesColors[category]);
 
         x.cursor = new am4charts.XYCursor();
 

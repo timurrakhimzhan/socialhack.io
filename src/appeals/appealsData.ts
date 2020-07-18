@@ -161,6 +161,50 @@ export const categoriesTranslation: any = {
     "wheelchair": "Колясочники"
 };
 
+export const categoriesColors: any = {
+    "blind": "#464c88",
+    "deaf": "#884b20",
+    "motor": "#881234",
+    "wheelchair": "#26885c",
+    "all": "#77881a"
+};
+
+export const statuses = [
+    "not started",
+    "in progress",
+    "done"
+];
+
+export const faces = [
+    "akimat",
+    "volunteer",
+    "directors"
+];
+
+export const facesTranslations = {
+    "akimat": "Акимат",
+    "volunteer": "Волонтеры",
+    "directors": "Директор частного предприятия"
+};
+
+export const statusesTranslations: {[key: string]: string} = {
+    "not started": "Не начато",
+    "in progress": "В процессе",
+    "done": "Готово"
+};
+
+export const statusesColors: {[key: string]: string} = {
+    "not started": "white",
+    "in progress": "yellow",
+    "done": "green"
+};
+
+export const appealDescriptions: any = {
+    "blind": ["нет звуковой информации", "нет алфавита Braille", "нет компетентного персонала", "Не созданы условия для инвалидов!"],
+    "deaf": ["нет визуальных картинок", "нет понятных объяснений", "персонал не может обслужить", "О готовности заказа можно только услышать"],
+    "motor": ["нет лифта", "лифт не работает"],
+    "wheelchair": ["нет пандуса", "нет перил", "эскалатор не работает", "Нет отдельных мест для людей с ограниченными возможностями"],
+};
 
 
 export const featureMap: any = {

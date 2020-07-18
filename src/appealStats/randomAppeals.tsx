@@ -44,7 +44,6 @@ export function randomize(startDate: string, endDate: string, appealsNumber: num
     return result;
 }
 
-function withProbability(probability: number): boolean {
+export function withProbability(probability: number): boolean {
     return Math.floor(Math.random() * 100 / probability) === 0;
-
 }
