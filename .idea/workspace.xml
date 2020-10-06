@@ -3,42 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="71d3f839-969f-455a-8e91-0fcc63494df8" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/appealStats/allStats.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/appealStats/allStats.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/appealStats/categoryStats.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/appealStats/categoryStats.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/appealStats/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/appealStats/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/appealStats/randomAppeals.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/appealStats/randomAppeals.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/appeals/appeal.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/appeals/appeal.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/appeals/appealsData.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/appeals/appealsData.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/appeals/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/appeals/index.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/router" beforeDir="false" afterPath="$PROJECT_DIR$/src/router" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/router/header/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/router/header/index.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/router/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/router/index.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/router/sidebar/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/router/sidebar/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/state/actions/actionTypes.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/state/actions/actionTypes.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/state/actions/actions.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/state/actions/actions.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/state/reducers/appealsReducer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/state/reducers/appealsReducer.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/state/reducers/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/state/reducers/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/statistics/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/statistics/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/main.991011b2.chunk.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/main.991011b2.chunk.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/3.c1879be6.chunk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/3.c1879be6.chunk.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/4.7ddb03d6.chunk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/4.7ddb03d6.chunk.js.LICENSE.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/4.7ddb03d6.chunk.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/5.8701ae4c.chunk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/5.8701ae4c.chunk.js.LICENSE.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/5.8701ae4c.chunk.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/6.619730bd.chunk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/6.619730bd.chunk.js.LICENSE.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/6.619730bd.chunk.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/main.e5226aaa.chunk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/main.e5226aaa.chunk.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/runtime-main.63ce47d3.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/runtime-main.63ce47d3.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/xlsx.f30f0748.chunk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/xlsx.f30f0748.chunk.js.map" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -112,6 +80,7 @@
       <option name="presentableId" value="Default" />
       <updated>1594884019126</updated>
       <workItem from="1594884020478" duration="64378000" />
+      <workItem from="1595360274138" duration="284000" />
     </task>
     <servers />
   </component>
@@ -119,10 +88,10 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="726" y="258" width="530" height="605" key="FileChooserDialogImpl" timestamp="1594909185240">
+    <state x="726" y="258" width="530" height="605" key="FileChooserDialogImpl" timestamp="1595360560688">
       <screen x="72" y="34" width="1848" height="1046" />
     </state>
-    <state x="726" y="258" width="530" height="605" key="FileChooserDialogImpl/72.34.1848.1046@72.34.1848.1046" timestamp="1594909185240" />
+    <state x="726" y="258" width="530" height="605" key="FileChooserDialogImpl/72.34.1848.1046@72.34.1848.1046" timestamp="1595360560688" />
     <state width="1820" height="260" key="GridCell.Tab.0.bottom" timestamp="1594915671798">
       <screen x="72" y="34" width="1848" height="1046" />
     </state>
